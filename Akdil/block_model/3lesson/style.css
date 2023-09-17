@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.box {
+
+    width: 300px;
+    height: 300px;
+    border: 2px dashed black;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+img {
+
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+a {
+    display: flex;
+    margin: 20px;
+
+    justify-content: end;
+}
+.text {
+    margin-top: 15px;
+    letter-spacing: 3px;
+    line-height: 20px;
+}
+.box1 {
+
+    background-color: wheat;
+
+}
+
+.box2 {
+
+    background-color: green;
+}
+
+.box3 {
+    background-color: yellow;
+}
