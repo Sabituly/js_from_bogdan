@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+
+    background-color: grey;
+    padding: 10px 0;
+}
+
+.header-title, .header-link {
+    color: white;
+    text-decoration: none;
+}
+
+.header-nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu {
+
+    display: flex;
+    gap: 30px;
+}
+
+.first-section-block {
+
+    display: flex;
+}
+.first-section {
+
+    margin: 30px 0;
+}
+.f-s-b-i {
+    width: 600px;
+    height: 300px;
+}
+
+.first-section-block-text {
+    margin: 70px 25px;
+
+}
+
+.first-section-block-header {
+
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.first-section-block-paragraph {
+
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.f-s-b-b {
+
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 9%;
+}
+.second-section-block {
+
+    background-color: grey;
+    height: 80px;
+    width: 100%;
+    display: inline-block;
+
+}
+
+.second-section-block-p {
+
+    color: aliceblue;
+    text-align: center;
+    margin: 30px;
+
+}
+.third-section {
+    margin: 30px;
+}
+.third-section-block-items {
+
+    display: flex;
+    gap: 10px;
+
+}
+
+.third-section-block-item {
+
+
+    border: 3px whitesmoke solid;
+}
+
+.third-section-block-button {
+    border-top: 3px whitesmoke solid;
+    padding: 0;
+}
+
+.third-section-block-h2 {
+    margin: 10px 5px;
+}
+
+.third-section-block-p {
+    margin: 10px 5px;
+}
+.third-section-block-b {
+    margin: 5px 10px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 80px;
+    background-color: blue;
+    color: whitesmoke;
+}
