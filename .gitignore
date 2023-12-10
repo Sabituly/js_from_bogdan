@@ -1,0 +1,10 @@
+# Игнорировать папку "idea" и все ее содержимое
+idea/
+
+# Игнорировать все файлы с расширением ".log"
+*.log
+
+# Игнорировать файл "config.properties"
+config.properties
+
+node_modules/
