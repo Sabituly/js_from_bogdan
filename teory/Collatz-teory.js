@@ -1,19 +1,42 @@
+const getCollatz = (number = 1) => {
+    let newNumber = number; //  не меняю внешние переменные
+    const array = [];
+    array.push(newNumber);
+    while (newNumber !== 1) {
+        if (newNumber % 2 === 0) { // если четное
+            newNumber = newNumber / 2;
+            array.push(newNumber);
+        } else {
+            newNumber = 3 * newNumber + 1; // если нечетное
+            array.push(newNumber);
+        }
+    }
+    return array; // возвращаю 1
+}
+
+console.log(getCollatz(6));
+
+
+//
 // function getCollatz(number) {
 //     let newNumber = number; //  не меняю внешние переменные
-//
+//     const array = [];
+//     array.push(newNumber);
 //     while (newNumber !== 1) {
 //         if (newNumber % 2 === 0) { // если четное
 //             newNumber = newNumber / 2;
+//             array.push(newNumber);
 //         } else {
 //             newNumber = 3 * newNumber + 1; // если нечетное
+//             array.push(newNumber);
 //         }
-//         console.log(newNumber);// вывожу значение
+//         //console.log(newNumber);// вывожу значение
 //     }
 //
-//     return newNumber; // возвращаю 1
+//     return array; // возвращаю 1
 // }
 //
-// console.log(getCollatz(27));
+// console.log(getCollatz(6));
 
 
 // for(let i = 0; i < 3; i++) {
@@ -172,12 +195,12 @@
 // foo.call(null);
 
 //26
-
-function foo(a, b) {
-    return a * b;
-}
-
-const bar = foo.bind(null, 2);
-console.log(bar(2));
+//
+// function foo(a, b) {
+//     return a * b;
+// }
+//
+// const bar = foo.bind(null, 2);
+// console.log(bar(2));
 
 
